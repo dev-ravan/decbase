@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decbase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,41 +16,45 @@
 
 <body>
     <!-- Header -->
-    <section class="main">
-        <header>
+    <section class="container min-h-screen min-w-full px-24 py-2">
+
+        <nav class="flex justify-between">
             <!-- logo -->
             <div><a href="#"><img src="assets/logo.png" alt="web logo"></a></div>
+
             <!-- Navigation -->
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                    <a href="#"><button class="btn">Sign Up</button></a>
-                </ul>
-            </nav>
-        </header>
+            <ul class="flex items-center">
+                <li><a href="#" class="mr-10 hover:text-[#CAA892]">HOME</a></li>
+                <li><a href="#" class="mr-10 hover:text-[#CAA892]">SERVICES</a></li>
+                <li><a href="#" class="mr-10 hover:text-[#CAA892]">ABOUT</a></li>
+                <li><a href="#" class="mr-10 hover:text-[#CAA892]">CONTACT US</a></li>
+                <a href="#"><button
+                        class="bg-[#CAA892] text-white font-semibold px-4 py-2 rounded-tl-2xl rounded-br-2xl hover:rounded-tr-2xl">Sign
+                        Up</button></a>
+            </ul>
+        </nav>
+
         <!-- Hero Section -->
-        <main class="hero">
-            <div class="hero-content">
-                <h5>MODERN INTERIOR</h5>
-                <h1>
-                    Create Your<br>Interior Design.
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic cum debitis ullam doloremque
-                    officia totam iure dolorem laudantium temporibus praesentium nostrum non animi officiis deleniti
-                    maiores, distinctio dolor perspiciatis reprehenderit exercitationem nemo repudiandae. Labore sunt
-                    esse quaerat debitis, laudantium voluptatem atque! Eum a facilis perspiciatis?
-                </p>
-                <a href="#"><button class="btn">CONTACT</button></a>
-            </div>
-            <img class="hero-img" src="assets/furniture.png"><div>
-                
-            </div></img>
-        
-        </main>
+
+        <div class="max-w-screen-lg mt-52 relative">
+            <h5 class="font-semibold text-[#646464]">MODERN INTERIOR</h5>
+            <h1 class="text-7xl font-semibold leading-tight">
+                Create Your<br>Interior Design.
+            </h1>
+            <p class="text-base text-[#646464] mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic cum debitis ullam doloremque
+                officia totam iure dolorem laudantium temporibus praesentium nostrum non animi officiis deleniti
+                maiores, distinctio dolor perspiciatis reprehenderit exercitationem nemo repudiandae. Labore sunt
+                esse quaerat debitis, laudantium voluptatem atque! Eum a facilis perspiciatis?
+            </p>
+            <a href="#"><button
+                    class="bg-[#37806B] text-white font-semibold px-6 py-3 mt-8 rounded-tl-2xl rounded-br-2xl hover:rounded-tr-2xl">CONTACT</button></a>
+        </div>
+        <img src="assets/furniture.png"
+            class="xl:absolute right-12 top-52 rounded-tl-[140px] rounded-br-[140px] relative">
+        </img>
+
+
     </section>
 
 </body>
