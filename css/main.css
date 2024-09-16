@@ -29,9 +29,11 @@ header nav ul li a {
     font-size: 1rem;
     font-weight: 500;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     color: #CAA892;
 }
+
 .btn {
     background-color: #CAA892;
     padding: 8px 16px;
@@ -46,11 +48,11 @@ header nav ul li a:hover{
 }
 
 .btn:hover {
-  border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .hero {
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 85vh;
     padding: 16px 150px;
@@ -60,6 +62,7 @@ header nav ul li a:hover{
 .hero-content {
     width: 700px;
 }
+
 .hero-content h5 {
     font-size: 20px;
     color: #646464;
@@ -84,7 +87,8 @@ header nav ul li a:hover{
     padding: 8px 20px;
 }
 
-.hero-img{
+.hero-img {
+
     margin-left: 20px;
     position: relative;
     height: 500px;
@@ -99,5 +103,3 @@ header nav ul li a:hover{
     border: 2px solid #B0855B;
     border-radius: 140px 0 140px 0;
 }
-
-
